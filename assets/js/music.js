@@ -89,7 +89,7 @@ function linkFormat(val,row){
 	if(row.type == 'custom'){
 		type = 'custom';
 	}
-	var html = '<a href="?display=music&id='+row.id+'&action=edit"><i class="fa fa-pencil"></i></a>';
+	var html = '<a href="?display=music&id='+row.id+'&action=edit"><i class="fa fa-edit"></i></a>';
 	if(row.category !== 'default'){
 		html += '&nbsp;<a href="?display=music&id='+row.id+'&action=delete"" class="delAction"><i class="fa fa-trash"></i></a>';
 	}
